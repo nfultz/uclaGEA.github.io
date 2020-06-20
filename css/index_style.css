@@ -22,9 +22,99 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'latolight';
+  src: url('fonts/lato/lato-light-webfont.woff2') format('woff2'),
+    url('fonts/lato/lato-light-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'spectralbold';
+    src: url('fonts/spectral/Spectral-ExtraBold.woff2') format('woff2'),
+        url('fonts/spectral/spectral-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spectrallight';
+    src: url('fonts/spectral/Spectral-Light.woff2') format('woff2'),
+        url('fonts/spectral/Spectral-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spectralregular';
+    src: url('fonts/spectral/Spectral-Medium.woff2') format('woff2'),
+        url('fonts/spectral/Spectral-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'lorabold';
+    src: url('fonts/lora/Lora-Bold.woff2') format('woff2'),
+        url('fonts/lora/Lora-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'loraregular';
+    src: url('fonts/lora/Lora-Medium.woff2') format('woff2'),
+        url('fonts/lora/Lora-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'loralight';
+    src: url('fonts/lora/Lora-Regular.woff2') format('woff2'),
+        url('fonts/lora/Lora-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sourcelight';
+    src: url('fonts/source/SourceSansPro-Light.woff2') format('woff2'),
+        url('fonts/source/SourceSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sourceregular';
+    src: url('fonts/source/SourceSansPro-Regular.woff2') format('woff2'),
+        url('fonts/source/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sourcebold';
+    src: url('fonts/source/SourceSansPro-Bold.woff2') format('woff2'),
+        url('fonts/source/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 h1 {
-  color: #2774AE;
-  font-family: latobold;
+  color: #123C69;
+  font-family: sourcebold;
   padding-top: 4%;
   margin: 0;
   font-size: 36px;
@@ -33,15 +123,15 @@ h1 {
 
 h2 {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 10px;
 }
 
 body {
-  background-color: #f9f9f9;
-  font-family: latolight;
+  background-color: #EEE2DC;
+  font-family: sourcelight;
   line-height: 1.6em;
   font-size: 14px;
-  max-width: 700px
+  max-width: 750px;
 }
 
 header {
@@ -50,7 +140,7 @@ header {
   margin: auto;
   background-color: inherit;
   margin-left: 3%;
-  max-width: 700px
+  max-width: 750px
 }
 
 main {
@@ -60,15 +150,21 @@ main {
 
 nav {
   display: block;
+  background-color: #BAB2B5;
   overflow: hidden;
   float: left;
+  width: 97%;
+  border: 2px solid;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 1%;
 }
 
 hr {
   color: black;
   text-align: left;
   width: 97%;
-  max-width: 700px;
+  max-width: 750px;
   margin-left: 3%;
   display: block;
   height: 2px;
@@ -77,6 +173,7 @@ hr {
   border-bottom: 0px;
   background-color: inherit;
 }
+
 
 nav a {
   float: left;
@@ -87,7 +184,7 @@ nav a {
 }
 
 nav a.active {
-  color: #2774AE;
+  color: #123C69;
 }
 
 nav a:hover {
@@ -96,14 +193,14 @@ nav a:hover {
 
 img {
   width: 80%;
-  max-width: 700px;
+  max-width: 750px;
   margin-top: 5px;
 }
 
 .subsection {
   width: 100%;
-  max-width: 700px;
-  font-size: 15px;
+  max-width: 750px;
+  font-size: 16px;
 }
 
 .weeklist {
@@ -126,15 +223,15 @@ img {
 
 .subhead {
   line-height: 1em;
-  font-family: latoregular;
-  font-size: 18px;
+  font-family: sourceregular;
+  font-size: 20;
   margin-bottom: 0px;
 }
 
 .subsubhead {
   line-height: 1em;
-  font-family: latoregular;
-  font-size: 16px;
+  font-family: sourceregular;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
