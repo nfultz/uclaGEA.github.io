@@ -154,7 +154,7 @@ nav {
   overflow: hidden;
   float: left;
   width: 97%;
-  border: 2px solid;
+  border: 1.5px solid;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding-left: 1%;
@@ -224,14 +224,16 @@ img {
 .subhead {
   line-height: 1em;
   font-family: sourceregular;
-  font-size: 20;
-  margin-bottom: 0px;
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .subsubhead {
   line-height: 1em;
   font-family: sourceregular;
-  font-size: 20px;
+  font-size: 18px;
+  margin-top: 0.75em;
   margin-bottom: 10px;
 }
 
