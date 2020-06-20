@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'latoregular';
+  src: url('fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+    url('fonts/lato/lato-regular-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latobold';
+  src: url('fonts/lato/lato-bold-webfont.woff2') format('woff2'),
+    url('fonts/lato/lato-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latolight';
+  src: url('fonts/lato/lato-light-webfont.woff2') format('woff2'),
+    url('fonts/lato/lato-light-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+h1 {
+  color: #2774AE;
+  font-family: latobold;
+  padding-top: 4%;
+  margin: 0;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: latolight;
+  line-height: 1.6em;
+  font-size: 14px;
+  max-width: 700px
+}
+
+header {
+  text-align: left;
+  margin-top: 5%;
+  margin: auto;
+  background-color: inherit;
+  margin-left: 3%;
+  max-width: 700px
+}
+
+main {
+  margin: auto;
+  margin-left: 3%;
+}
+
+nav {
+  display: block;
+  overflow: hidden;
+  float: left;
+}
+
+hr {
+  color: black;
+  text-align: left;
+  width: 97%;
+  max-width: 700px;
+  margin-left: 3%;
+  display: block;
+  height: 2px;
+  border=0;
+  border-top: 2px solid;
+  border-bottom: 0px;
+  background-color: inherit;
+}
+
+nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 1px 0px;
+  margin-right: 21px
+}
+
+nav a.active {
+  color: #2774AE;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+img {
+  width: 80%;
+  max-width: 700px;
+  margin-top: 5px;
+}
+
+.subsection {
+  width: 100%;
+  max-width: 700px;
+  font-size: 15px;
+}
+
+.weeklist {
+  /* delete default counter */
+  list-style-type: none;
+  /* create custom counter and set it to 0 */
+  counter-reset: elementcounter;
+}
+
+.weeklist>li:before {
+  /* print out "Element " followed by the current counter value */
+  content: "Week "counter(elementcounter) ": ";
+  /* increment counter */
+  counter-increment: elementcounter;
+}
+
+.suppFile {
+  font-size: 10px;
+}
+
+.subhead {
+  line-height: 1em;
+  font-family: latoregular;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.subsubhead {
+  line-height: 1em;
+  font-family: latoregular;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+
+
