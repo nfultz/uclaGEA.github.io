@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 <html lang="en" dir="ltr">
 
 <head>
@@ -42,12 +55,22 @@
         <li>Grad Lab Czar: Vicki Wang, Zehua Wu</li>
       </ul>
     </section>
-    <div>
-      <img src="images/calvin.jpeg" alt="Calvin Kuo 2"><img src="images/manu_soldier.jpg" alt="Manu">
-    </div>
-    <div>
-      (President #1: Calvin Kuo) (President #2: Manu Navjeevan)
-    </div>
+<div class="row">
+  <div class="column">
+    <img src="images/calvin.jpeg" alt="Calvin Kuo 2" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/manu_soldier.jpg" alt="Manu" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+      (President #1: Calvin Kuo) 
+  </div>
+  <div class="column">
+    (President #2: Manu Navjeevan)
+  </div>
+</div>
   </main>
 </body>
 
