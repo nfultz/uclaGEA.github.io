@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <title>UCLA GEA</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="GEA Official Website">
+  <meta name="author" content="Manu">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <link rel="stylesheet" type="text/css" href="css/index_style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+
+
+<body>
+  <header>
+    <!-- Adding a header -->
+    <h1>UCLA Graduate Economics Association</h1>
+    <nav>
+      <a href="index.html">
+        <h2>Home</h2>
+      </a>
+      <a class="active" href="officers.html">
+        <h2>Current Officers</h2>
+      </a>
+      <a href="https://weconatla.weebly.com">
+        <h2>Women in Economics</h2>
+      </a>
+      <a class="active" href="QA.html">
+        <h2>PhD student QA</h2>
+      </a>
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <section class="subsection">
+      <h4 class="subhead1">Q&A</h4>
+      This is an effort to collect some of all the information that is spread out in different documents and on webpages, etc.
+      Please let us know if you have any suggestions of other information to put here.
+    </section>
+  </main>
+</body>
+
+
+</html>
