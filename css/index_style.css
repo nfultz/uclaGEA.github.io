@@ -157,8 +157,8 @@ nav {
   float: left;
   width: 97%;
   /*border: 1.5px solid;*/
-  /*margin-top: 1.5em;*/
-  /*margin-bottom: 1.5em;*/
+  margin-top: 0.25%;
+  /*margin-bottom: -0.01%;*/
   /*padding-left: 1%;*/
 }
 
@@ -171,7 +171,7 @@ hr {
   display: block;
   height: 2px;
   border=0;
-  border-top: 2px solid;
+  border-top: 2.5px solid;
   border-bottom: 0px;
   background-color: inherit;
 }
