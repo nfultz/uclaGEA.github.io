@@ -113,7 +113,7 @@
 }
 
 h1 {
-  color: #123C69;
+  color: #005587;
   font-family: sourcebold;
   padding-top: 4%;
   margin: 0;
@@ -127,7 +127,7 @@ h2 {
 }
 
 body {
-  background-color: #EEE2DC;
+  background-color: #f3e1c9;
   font-family: sourcelight;
   line-height: 1.6em;
   font-size: 14px;
@@ -151,19 +151,19 @@ main {
 }
 
 nav {
-  display: block;
-  background-color: #BAB2B5;
+  /*display: block;*/
+  /*background-color: #EFE2BA;*/
   overflow: hidden;
   float: left;
   width: 97%;
-  border: 1.5px solid;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  padding-left: 1%;
+  /*border: 1.5px solid;*/
+  /*margin-top: 1.5em;*/
+  /*margin-bottom: 1.5em;*/
+  /*padding-left: 1%;*/
 }
 
 hr {
-  color: black;
+  color: #005587;
   text-align: left;
   width: 97%;
   max-width: 750px;
@@ -186,7 +186,7 @@ nav a {
 }
 
 nav a.active {
-  color: #123C69;
+  color: #005587;
 }
 
 nav a:hover {
