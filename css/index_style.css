@@ -239,5 +239,7 @@ h4.subhead1 {
 }
 
 
-
+iframe	{
+	display:inline-block;
+}
 
