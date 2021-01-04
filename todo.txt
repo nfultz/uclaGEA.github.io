@@ -1,0 +1,7 @@
+TODO List for uclagea.org
+- [ ] For FAQ Section, find a way to add links to different parts of the FAQ (i.e have a link that takes you down to the "advancing to canidacy" set of questions) 
+- [ ] Figure out how to make design look better on mobile. Mainly with respect to the navigation bar, the top of website looks a bit clunky on mobile
+- [ ] Test the calendar feature on mobile and smalled displays as well.
+- [ ] Find a way to password protect the google drive and add this
+- [ ] Find someone to write up info on advancing to canidacy 
+
