@@ -185,6 +185,11 @@ nav a {
   margin-right: 21px
 }
 
+
+nav a.external {
+	color: #AC341E;
+}
+
 nav a.active {
   color: #005587;
 }
