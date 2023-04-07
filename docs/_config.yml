@@ -4,5 +4,12 @@ theme: just-the-docs
 
 url: https://ucalgea.github.io/docs
 
+nav_external_links:
+  - title: Return to GEA site
+    url: https://uclagea.net
+    hide_icon: false
+
 aux_links:
-  Template Repository: https://github.com/uclaGEA/uclaGEA.github.io
+    Repository:
+        "https://github.com/uclaGEA/uclaGEA.github.io"
+
