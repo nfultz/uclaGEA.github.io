@@ -3,7 +3,7 @@ layout: default
 title: How to Contribute
 ---
 
-## Downloading and Uploading your Edits
+### Downloading and Uploading your Edits
 
 We use Git and Github. Clone the [repo](https://github.com/uclaGEA/uclaGEA.github.io/), make edits, commit, and submit a pull request to have it merged.
 
@@ -11,7 +11,9 @@ We use Git and Github. Clone the [repo](https://github.com/uclaGEA/uclaGEA.githu
 git clone https://github.com/uclaGEA/uclaGEA.github.io/
 # make your edits...
 git add --all
-git commit -a -m here is your commit message'
+git commit -a -m 'write your commit message'
+git push
+git request-pull
 ```
 
 
