@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Conferences
+title: CCPR
 parent: Research
 ---
 
