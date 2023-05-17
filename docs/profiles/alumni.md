@@ -16,7 +16,7 @@ The list of placements on the Econ Department doesn't contain current placements
 | Andrew Heinzman                                   | Cornerstone Research        |
 | Ariadna Jou Fuya                                  | University of Chile         |
 | Jacob Kohlhepp                                    | UNC Chapel Hill             |
-| Augusto Ospital                                   | Greslebin	LMU Munich     |
+| xsAugusto Ospital                                   | Greslebin	LMU Munich     |
 | Anthony Papac                                     | Intensity                   |
 | Shihan Shen                                       | Rice University             |
 | Sumit Shinde                                      | Analysis Group              |
