@@ -7,10 +7,10 @@ nav_order: 1
 # GEA Wiki
 
 This wiki is the "single source of truth" for all things related to the UCLA Economics PhD program, 
-collectively maintained by the graduate students.[^1] If you see something that there should
-be documentation for, submit a pull request. See [How to Contribute](contribute) for more details.
-
-Add your name to the contributors line below. If you have any questions, email the maintainer.[^2]
+collectively maintained by the graduate students.[^1] It serves as a companion to the department website
+and Graduate Student Handbook (which are maintained by department staff and faculty), to answer 
+graduate student questions about processes, procedures, and resources. If you learn something about 
+the department that should be written down, submit a pull request. See [How to Contribute](contribute) for more details.
 
 ----
 
