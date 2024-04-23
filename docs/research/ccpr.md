@@ -10,12 +10,11 @@ The California Center for Population Research, housed within the Luskin School o
 
 * exposure to resources at CCPR and CPL
 * office space in the Luskin building
-* access to seminar series and interdisciplinary connections
+* access to [seminar series](https://ccpr.ucla.edu/events/) and interdisciplinary connections
 
 #### Application Process
 
 
 #### Key People
 
-* Executive Director: Lucy Shao
 * Key Faculty: Patrick Heuveline, Hiram Beltran-Sanchez, Martha Bailey
